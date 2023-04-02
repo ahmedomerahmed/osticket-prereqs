@@ -72,32 +72,40 @@ Step 8 - Install osTicket V1.15.8
 <img src="https://i.imgur.com/Dzp1cjL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To install osTicket, begin by downloading it from the Installation Files Folder. Then, extract the contents of the "upload" folder and transfer them to "c:\inetpub\wwwroot". Once the transfer is complete, rename the "upload" folder to "osTicket" within the "c:\inetpub\wwwroot" directory.
+To install osTicket, begin by downloading it from the Installation Files Folder. Then, extract the contents of the "upload" folder and transfer them to "c:\inetpub\wwwroot". Once the transfer is complete, rename the "upload" folder to "osTicket" within the "c:\inetpub\wwwroot" directory. Do not forget to restart the server
 <p>
-Step 9 - 
+Step 9 - Click "Browse *:80"
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Wp3YgRa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To launch the osTicket web server in your default browser, begin by opening the IIS Manager. After that, restart the server and navigate to Sites -> Default -> osTicket. On the right-hand side, select "Browse*.80" to launch the osTicket web server in your default browser.
  <p>
-Step 9 - 
+Step 10 - To enable 3 extentions
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jwOTsnQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To activate certain extensions in IIS, access Sites -> Default -> osTicket. Next, double-click on PHP Manager and choose "Disable or Enable an Extension". Enable the "php_intl.dll" and "php_opcache.dll" extensions, then do not forget refresh the osTicket web server to observe any changes. You should now see that the "Intl Extension" is enabled.
  <p>
-Step 9 - 
+Step 11 - Rename and Assign Permissions of ost-confiq.php
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wkzMqbC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To configure the osTicket installation, navigate to "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" using the Explorer. Next, rename the file to "ost-config.php" by removing the word "sample" from the filename. After that, assign full permissions to the new "ost-config.php" file for Everyone. Disable inheritance and remove all new permissions except for "Everyone" to complete the process.
  <p>
-Step 9 - 
+Step 12 - Download and install HeidiSQL
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/irmoX2l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once you've installed HeidiSQL, open the application and click on "New". The username should remain as "root". Enter the password that you chose at the beginning of the lab and click "Open" to establish a connection to the database. Next, right-click and select "Create New", then choose "Database". Enter "Osticket" as the name of the database.
+  <p>
+Step 13 - Setting up osticket in the browser
+<p>
+<img src="https://i.imgur.com/316l4qG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Return to the osTicket application and provide the necessary database information. For MySQL, use "osticket" as the database name, "root" as the username, and the password you previously selected. Once you've entered the information, click "Install". Now, osTicket installion is complete
+ <p>
