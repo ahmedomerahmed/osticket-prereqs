@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-Step 1 - Follow my procedure (Configarted the virtual machine azure) 
+Step 1 - Follow my procedure (Configuring Virtual machice within Azure) 
 
 
 
@@ -67,6 +67,7 @@ Step 7 - Register PHP from within IIS
 </p>
 <p>
 To register a new version of PHP, run IIS with administrator privileges and access PHP Manager. In the "PHP Setup" area, locate and click "Register New PHP version", then search for the PHP folder you recently added to the "Program Files (x86)/PHP" directory. Open the folder and select the "php-cgi.exe" file.
+<p>
 Step 8 - Install osTicket V1.15.8 
 <p>
 <img src="https://i.imgur.com/Dzp1cjL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
