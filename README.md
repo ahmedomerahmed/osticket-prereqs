@@ -64,26 +64,48 @@ Step 5 - Download PHP 7.3.8 and unzip the contents in to C:\PHP
 <p>
  After downloading, extract the folder and move it to the local disk.
 <p>
-Step 6 - 
+Step 6 - Download and install VC_redist.x86.exe. and MySQL 5.5.62
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iuLWzkE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Make sure to remember the password
 
-
-Step 7 - 
+Step 7 - Register PHP from within IIS 
+<p>
+<img src="https://i.imgur.com/TwFyaQf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To register a new version of PHP, run IIS with administrator privileges and access PHP Manager. In the "PHP Setup" area, locate and click "Register New PHP version", then search for the PHP folder you recently added to the "Program Files (x86)/PHP" directory. Open the folder and select the "php-cgi.exe" file.
+Step 8 - Install osTicket V1.15.8 
+<p>
+<img src="https://i.imgur.com/Dzp1cjL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To install osTicket, begin by downloading it from the Installation Files Folder. Then, extract the contents of the "upload" folder and transfer them to "c:\inetpub\wwwroot". Once the transfer is complete, rename the "upload" folder to "osTicket" within the "c:\inetpub\wwwroot" directory.
+<p>
+Step 9 - 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Step 7 - 
+ <p>
+Step 9 - 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Step 7 - 
+ <p>
+Step 9 - 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ <p>
+Step 9 - 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
